@@ -1,9 +1,9 @@
 package gracefulsoul.other.frontController;
 
 public class HomeView {
-    
-    public void show() {
-        System.out.println("Displaying Home Page");
-    }
-    
+
+	public void show() {
+		System.out.println("Displaying Home Page");
+	}
+
 }
