@@ -1,10 +1,10 @@
 package gracefulsoul.other.businessDelegate.businessService;
 
 public class EJBService implements BusinessService {
-    
-    @Override
-    public void doProcessing() {
-        System.out.println("Processing task by invoking EJB Service");
-    }
-    
+
+	@Override
+	public void doProcessing() {
+		System.out.println("Processing task by invoking EJB Service");
+	}
+
 }

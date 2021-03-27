@@ -5,13 +5,16 @@ import gracefulsoul.other.businessDelegate.businessService.EJBService;
 import gracefulsoul.other.businessDelegate.businessService.JMSService;
 
 public class BusinessLookUp {
-    
-    public BusinessService getBusinessService(String serviceType) {
-        if(serviceType.equalsIgnoreCase("EJB")) {
-            return new EJBService();
-        } else {
-            return new JMSService();
-        }
-    }
-    
+
+	public BusinessService getBusinessService(ServiceType serviceType) {
+		switch (serviceType) {
+			case EJB:
+				return new EJBService();
+			case JMS:
+				return new JMSService();
+			default:
+				return null;
+		}
+	}
+
 }
