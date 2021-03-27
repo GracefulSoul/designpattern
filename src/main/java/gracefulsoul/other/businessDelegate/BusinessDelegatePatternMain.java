@@ -1,5 +1,8 @@
 package gracefulsoul.other.businessDelegate;
 
+import gracefulsoul.other.businessDelegate.businessService.ServiceType;
+import gracefulsoul.other.businessDelegate.client.Client;
+
 public class BusinessDelegatePatternMain {
 
 	public static void main(String[] args) {

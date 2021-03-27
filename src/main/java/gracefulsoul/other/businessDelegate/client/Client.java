@@ -1,4 +1,6 @@
-package gracefulsoul.other.businessDelegate;
+package gracefulsoul.other.businessDelegate.client;
+
+import gracefulsoul.other.businessDelegate.BusinessDelegate;
 
 public class Client {
 
