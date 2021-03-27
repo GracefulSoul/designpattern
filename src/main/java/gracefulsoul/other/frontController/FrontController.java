@@ -18,7 +18,7 @@ public class FrontController {
 	}
 
 	public void dispatchRequest(Request request) {
-		// Long each request.
+		// Log each request.
 		trackRequest(request);
 		// Authenticate the user.
 		if (isAuthenticUser()) {
