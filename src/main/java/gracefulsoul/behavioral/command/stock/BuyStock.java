@@ -1,0 +1,17 @@
+package gracefulsoul.behavioral.command.stock;
+
+import gracefulsoul.behavioral.command.order.Order;
+
+public class BuyStock implements Order {
+
+	private Stock abcStock;
+
+	public BuyStock(Stock abcStock) {
+		this.abcStock = abcStock;
+	}
+
+	public void execute() {
+		abcStock.buy();
+	}
+
+}

@@ -1,0 +1,13 @@
+package gracefulsoul.creational.builder.item;
+
+import gracefulsoul.creational.builder.packing.Packing;
+
+public interface Item {
+
+	public String name();
+
+	public Packing packing();
+
+	public float price();
+
+}
