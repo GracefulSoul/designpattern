@@ -1,7 +1,6 @@
 package gracefulsoul.other.businessDelegate;
 
 import gracefulsoul.other.businessDelegate.businessService.BusinessService;
-import gracefulsoul.other.businessDelegate.businessService.ServiceType;
 
 public class BusinessDelegate {
 
