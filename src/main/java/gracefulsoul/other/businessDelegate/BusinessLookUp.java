@@ -1,6 +1,7 @@
 package gracefulsoul.other.businessDelegate;
 
 import gracefulsoul.other.businessDelegate.businessService.BusinessService;
+import gracefulsoul.other.businessDelegate.businessService.DefaultService;
 import gracefulsoul.other.businessDelegate.businessService.EJBService;
 import gracefulsoul.other.businessDelegate.businessService.JMSService;
 
@@ -13,7 +14,7 @@ public class BusinessLookUp {
 			case JMS:
 				return new JMSService();
 			default:
-				return null;
+				return new DefaultService();
 		}
 	}
 
