@@ -1,15 +1,15 @@
 package gracefulsoul.other.compositeEntity.dependentObject;
 
 public class DependentObject2 {
-    
-    private String data;
-    
-    public void setData(String data) {
-        this.data = data;
-    }
-    
-    public String getData() {
-        return this.data;
-    }
-    
+
+	private String data;
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public String getData() {
+		return this.data;
+	}
+
 }
