@@ -2,14 +2,14 @@ package gracefulsoul.other.businessDelegate;
 
 public class Client {
 
-	BusinessDelegate businessService;
+	BusinessDelegate businessDelegate;
 
-	public Client(BusinessDelegate businessService) {
-		this.businessService = businessService;
+	public Client(BusinessDelegate businessDelegate) {
+		this.businessDelegate = businessDelegate;
 	}
 
 	public void doTask() {
-		businessService.doTask();
+		businessDelegate.doTask();
 	}
 
 }
