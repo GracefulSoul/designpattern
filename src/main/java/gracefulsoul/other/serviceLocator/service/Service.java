@@ -1,8 +1,9 @@
 package gracefulsoul.other.serviceLocator.service;
 
 public interface Service {
-    
-    public String getName();
-    public void execute();
-    
+
+	public String getName();
+
+	public void execute();
+
 }

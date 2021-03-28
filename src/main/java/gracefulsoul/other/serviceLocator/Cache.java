@@ -6,7 +6,7 @@ import java.util.List;
 import gracefulsoul.other.serviceLocator.service.Service;
 
 public class Cache {
-	
+
 	private List<Service> services;
 
 	public Cache() {
@@ -14,7 +14,6 @@ public class Cache {
 	}
 
 	public Service getService(String serviceName) {
-
 		for (Service service : services) {
 			if (service.getName().equalsIgnoreCase(serviceName)) {
 				System.out.println("Returning cached  " + serviceName + " object");
@@ -26,7 +25,6 @@ public class Cache {
 
 	public void addService(Service newService) {
 		boolean exists = false;
-
 		for (Service service : services) {
 			if (service.getName().equalsIgnoreCase(newService.getName())) {
 				exists = true;
