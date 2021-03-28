@@ -4,11 +4,7 @@ import gracefulsoul.other.serviceLocator.service.Service;
 
 public class ServiceLocator {
 
-	private static Cache cache;
-
-	static {
-		cache = new Cache();
-	}
+	private static Cache cache = new Cache();
 
 	public static Service getService(String jndiName) {
 		Service service = cache.getService(jndiName);
