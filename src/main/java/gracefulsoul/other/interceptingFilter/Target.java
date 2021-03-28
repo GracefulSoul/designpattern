@@ -1,9 +1,9 @@
 package gracefulsoul.other.interceptingFilter;
 
 public class Target {
-    
-    public void execute(String request) {
-        System.out.println("Executing request: " + request);
-    }
-    
+
+	public void execute(String request) {
+		System.out.println("Executing request: " + request);
+	}
+
 }

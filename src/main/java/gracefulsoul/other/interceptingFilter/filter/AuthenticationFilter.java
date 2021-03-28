@@ -1,9 +1,9 @@
 package gracefulsoul.other.interceptingFilter.filter;
 
 public class AuthenticationFilter implements Filter {
-    
-    public void execute(String request) {
-        System.out.println("Authenticating request: " + request);
-    }
-    
+
+	public void execute(String request) {
+		System.out.println("Authenticating request: " + request);
+	}
+
 }
